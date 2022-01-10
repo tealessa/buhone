@@ -1,0 +1,746 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+         url('../fonts/lato-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'),
+         url('../fonts/lato-v16-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'),
+         url('../fonts/lato-v16-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v16-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: lato;
+    font-style: normal;
+    font-size:16px;
+    line-height:1.2;
+    font-weight: normal;
+    color: #EBEBEB;
+  
+      }
+
+      .wrapper{
+        max-width: 1116px;     
+        margin: 0 auto;
+        height: 110px;
+    }
+
+
+/* header styles start*/
+
+.header_test{
+    position: relative;
+    max-width: 1116px;     
+        margin: 0 auto;
+        height: 110px;
+}
+
+
+.header_logo_1{
+    padding-top: 33px;
+  
+}
+
+.header_logo_2{
+    padding-left: 30px;
+    padding-top: 33px;
+    
+}
+
+.header_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    position: absolute;
+    top:22px;
+    left: 465px;
+}
+
+.header_contact{
+    margin-right: 72px;
+    font-size: 13px;
+line-height: 17px;
+color: black;
+}
+
+.header_contact:last-child{
+    margin-right: 0;
+}
+
+
+.header_wrapper{
+   padding-bottom: 122px;
+}
+
+.header_menu_nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;  
+
+}
+
+.header_item{
+    margin-right: 68px;
+    
+}
+
+.header_link{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.header_item:last-child{
+margin-right: 0;
+}
+
+/* header styles end*/
+
+/* intro styles start*/
+.intro{
+    min-height:100vh;
+    background: url(../img/Rectangle.jpg) no-repeat center;
+    background-size: cover;
+    }
+    
+    
+    
+    .intro{
+    padding-top: 204px;
+    }
+    
+    .intro_title{
+        max-width:589px;
+        max-height: 117;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        margin-bottom:80px;
+        line-height: 66px;
+        color: #ffffff;
+    }
+    
+    .search-form_sumbit { 
+        padding: 19px 18px;
+        font-size: 18px;
+        background: #005FA3;
+        color:white;
+        border:0;      
+    }
+
+   /*intro styles end*/
+
+
+/* service styles start*/
+.color-2{
+    background: #EBEBEB;
+}
+
+.section_size{
+    max-width: 1116px;
+    margin: 0 auto;
+}
+.Logo{
+    font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+color: #BDBDBD;
+padding-top: 140px;
+
+}
+
+.description{
+    font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+color: black;
+margin-top: 40px;
+}
+
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 102px;
+    grid-row-gap: 30px;
+    padding-bottom: 140px;
+}
+
+.image-1{
+    position: relative;
+}
+
+
+.desc1{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+
+.image-2{
+    position: relative;
+}
+
+
+.desc2{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+.image-3{
+    position: relative;
+}
+
+
+.desc3{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+
+
+.image-4{
+    position: relative;
+}
+
+
+.desc4{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+
+.image-5{
+    position: relative;
+}
+
+
+.desc5{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+
+
+.image-6{
+    position: relative;
+}
+
+
+.desc6{
+color: white;
+position: absolute;
+left: 45px;
+bottom: 45px;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+}
+
+/* service styles end*/
+
+/*about company styles start*/
+.about_the_company{
+   
+    max-width: 1116px;
+    margin: 0 auto;
+    height: 844px;
+    
+}
+
+.company{
+    position: relative;
+}
+
+.block{
+    padding-top:140px;
+}
+
+.about_us{
+    font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+color: #BDBDBD;
+}
+
+.names_of_comp{
+    font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+}
+
+.name_of_company{
+    color: #333333;
+    margin-top: 40px;
+}
+
+.name{
+    color: #005FA3;
+}
+
+.about_cmpany{
+    font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+color: black;
+margin-top: 60px;
+}
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    margin-left: 568px;   
+    position: absolute;
+    top:164px;
+    
+    padding-bottom:140px;
+   
+}
+
+.block1{
+    background: #EBEBEB;
+    width: 255px;
+    height: 255px;   
+}
+.block2{
+    background: #EBEBEB;
+    width: 255px;
+    height: 255px;
+}
+.block3{
+    background: #EBEBEB; 
+    width: 255px;
+    height: 255px;  
+}
+.block4{
+    background: #005FA3;
+    width: 255px;
+    height: 255px; 
+}
+
+.ninety{
+    font-weight: 900;
+font-size: 55px;
+line-height: 66px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+padding-top: 30px;
+padding-left: 40px;
+}
+
+.finished{
+    font-size: 14px;
+line-height: 18px;
+color: black;
+padding-top: 30px;
+padding-bottom: 47px;
+padding-left: 40px;
+}
+
+.all_cases{
+    font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    color: #005FA3;
+    
+}
+
+.ninety2, .finished2, .all_cases2{
+    color:white;  
+}
+.ninety2{
+    font-weight: 900;
+font-size: 55px;
+line-height: 66px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+padding-top: 30px;
+padding-left: 40px;
+}
+
+.finished2{
+    font-size: 14px;
+    line-height: 18px;
+    
+    padding-top: 30px;
+    padding-bottom: 47px;
+    padding-left: 40px;
+}
+
+.all_cases2{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+        padding-left: 40px;
+        padding-bottom: 40px;
+        
+}
+
+/*about company styles end*/
+
+
+/*our styles customers start*/
+
+.color-{
+    background: #EBEBEB;
+}
+
+.customers{
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+.work_pic{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding-top: 80px;
+}
+
+.our_customers{
+    font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+color: #BDBDBD;
+padding-top: 100px;
+}
+
+
+.our_workers{
+    font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+color: #333333;
+padding-top: 40px;
+}
+
+
+
+.scroll{
+    padding-top: 45px;  
+ }
+ 
+ 
+ 
+ .buttons{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding-top: 50px;
+ }
+
+ .arrow{
+     padding-bottom: 100px;
+ }
+ 
+
+/*our styles customers end*/
+
+
+/*reviews styles start*/
+
+
+
+.reviews{
+    font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+color: #BDBDBD;
+padding-top: 140px;
+}
+
+.thanks{
+    font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+color: #333333;
+padding-top: 40px;
+padding-bottom: 80px;
+}
+
+.container{
+    width: 1110px;
+height: 320px;
+background: #EBEBEB;
+position:relative;
+
+}
+
+.size_sec{
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+.text_info{
+    font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+color: black;
+padding-top:45px;
+padding-left:95px;
+}
+
+
+.avat{
+    padding-top: 58px;
+    padding-left: 95px;
+}
+
+.girls_name{
+    font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+color: black;
+padding-left: 210px;
+position: absolute;
+top: 212px;
+
+}
+
+.girls_job{
+    font-size: 14px;
+line-height: 19px;
+color: #4F4F4F;;
+padding-left: 210px;
+position: absolute;
+top: 240px;
+}
+
+
+
+.scroll2{
+   padding-top: 40px;  
+}
+
+
+
+.buttons2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+/*reviews styles end*/
+
+
+/*communication styles start*/
+
+.page{
+    min-height:100vh;
+    background: url(../img/Rectangle.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    }
+
+    .section3_wrapper{
+        max-width: 1116px;     
+        margin: 0 auto;
+        
+    }
+
+    .communication{
+        padding-top: 122px;
+        font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+color: #ffff;
+    }
+
+    .questions{
+        font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+padding-top: 60px;
+color: #FFFFFF;
+    }
+
+    .contact_info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-top: 80px;
+        
+    }
+.contact-info_cont{
+    margin-right: 95px;
+}
+
+.pic_of_cont{
+    margin-right: 20px;
+}
+
+.div_fo{
+    margin-left: 30px;
+}
+
+.div_fo3{
+    position: absolute;
+    bottom: 690px;
+    left: 6px;
+}
+
+
+
+.interaction_form{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    width: 255px;
+    height: 67px;
+    color: white;
+    
+}
+
+.interaction_form2{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    width: 540px;
+    height: 136px;
+    color: white;
+    
+    
+}
+
+.cont_for{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 135px;
+    left: 568px;
+    padding-left:75px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.testim{
+    position: absolute;
+    left:568px;
+    top:237px;
+    padding-left:101px; 
+}
+
+
+.sms{
+    padding-top:35px;
+}
+
+.send_message{
+    padding-top:50px;
+    padding-left:860px;
+}
+
+
+
+.send_form{
+    background: #005FA3;
+    border: 0;
+    width: 270px;
+height: 60px;
+color: white;
+}
+
+.send_message{
+    padding-bottom: 140px;
+}
+
+
+
+/*communication styles end*/
+
+/*footer styles start*/
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1116px;
+    margin: 0 auto;
+    height: 110px;
+}
+
+.rules{
+    font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+}
+
+.creator{
+    font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+    color: #000000;
+}
+
+
+
+/*footer styles end*/
